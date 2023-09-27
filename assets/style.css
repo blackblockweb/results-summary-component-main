@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigcard{
+    width: 60%;
+    margin: auto;
+    margin-top: 15rem;
+    color: #fff;
+    margin-left: 30%;
+    display: flex;
+}
+.card1{
+    width:30%;
+    background-color: #4c37f4;
+    border-radius: 20px;
+    text-align: center;
+}
+.card1 h3{
+    color: #c9c1fd;
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.child{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:auto ;
+    background-color: #472ada;
+    margin-top: 20px;
+    text-align: center;
+}
+.child h4{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+   padding: 20px 0 0 0;
+
+}
+.child p{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+   margin-top: 10px;
+
+}
+#degree{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#message{
+    color: #fff;
+    padding: 30px;
+}
+.card2{
+    width:30%;
+
+}
+.card2 h2{
+    color: #000;
+    margin: 20px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Reaction{
+    color: #000;
+    margin: 0 30px;
+    background-color: #fff6f5;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Reaction h3{
+  color: #e37874;
+  margin-right: 30px;
+}
+.Reaction img{
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  .Reaction p{
+    margin-left: 50px;
+    margin-right: 20px;
+   
+  }
+  .Reaction span{
+    
+    opacity: 0.5;
+  }
+
+  #react{
+    width: 45px;
+    height: 25px;
+    margin-left: -50px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    background-color: #ffffff00;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+ 
+  }
+  #emory{
+    width: 45px;
+    height: 25px;
+    margin-left: -49px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    background-color: #ffffff00;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+ 
+  }
+#memory{
+background-color: #fffbf2;
+}
+
+#Verbal{
+    background-color: #f2fbfa;
+}
+
+ #Visual{
+ background-color: #f3f3fd;
+}
+
+
+
+  #verb{
+    width: 45px;
+    height: 25px;
+    margin-left: -35px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    background-color: #ffffff00;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+ 
+  }
+  #Visu{
+    width: 45px;
+    height: 25px;
+    margin-left: -33px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    background-color: #ffffff00;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+ 
+  }
+
+  #submit{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #4334ef;
+    cursor: pointer;
+    border: 0;
+   margin-left: 50px;
+   margin-bottom: 10px;
+   color: #fff;
+   font-weight: bold;
+  }
+
+  @media  (max-width: 1060px) {
+  .bigcard{
+    display: flex;
+    flex-direction: column;
+  }
+  .card1{
+    width:50%;
+  
+}
+.card2{
+  width:50%;
+
+}
+  }
